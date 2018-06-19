@@ -1,4 +1,5 @@
 import { FormulizeTokenHelper } from '../token.helper';
+import $ from 'jquery'
 
 export class UIElementHelper {
     public static getDragElement(id: string): HTMLElement {

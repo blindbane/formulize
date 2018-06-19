@@ -63,6 +63,9 @@
   "dependencies": {
     "metric-parser": "0.0.12"
   },
+  "peerDependencies": {
+    "jquery": "^3.3.1"
+  },
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/jquery": "^3.3.2",

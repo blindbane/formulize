@@ -5,6 +5,7 @@ import { UIElementHelper } from './ui.element.helper';
 import { ElementPosition, FormulizeData, Position } from './ui.interface';
 import { UIHelper } from './ui.helper';
 import { UIPipe } from './ui.pipe';
+import $ from 'jquery'
 
 export abstract class UIManager extends UIPipe {
     protected prevCursorIndex = 0;

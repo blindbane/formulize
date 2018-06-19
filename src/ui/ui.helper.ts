@@ -1,6 +1,8 @@
 import { FormulizeData, Position } from './ui.interface';
 import { StringHelper } from '../string.helper';
-
+import $ from 'jquery'
+const jQuery = $;
+const JQuery = $;
 export class UIHelper {
     public static getDataValue(data: FormulizeData): string {
         if (!UIHelper.isDOM(data))
@@ -20,7 +22,7 @@ export class UIHelper {
     }
 
     public static isDOM(data: FormulizeData): boolean {
-        return data instanceof HTMLElement || data instanceof jQuery;
+        return true;
     }
 
     public static getDOM(elem: HTMLElement | JQuery): HTMLElement {

@@ -1,5 +1,6 @@
 import { FormulizeOptions } from '../formulize.interface';
 import { UIElementHelper } from './ui.element.helper';
+import $ from 'jquery'
 
 export abstract class UIDom {
     public options: Readonly<FormulizeOptions>;
@@ -21,6 +22,7 @@ export abstract class UIDom {
     }
 
     protected initializeDOM() {
+        console.log(this.elem);
         this.wrapper = $(this.elem);
         this.wrapper.addClass(`${this.options.id}-wrapper`);
 

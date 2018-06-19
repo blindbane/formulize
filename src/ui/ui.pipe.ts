@@ -1,6 +1,7 @@
 import { UIAnalyzer } from './ui.analyzer';
 import { FormulizeData, FormulizeEvent } from './ui.interface';
 import { UIHelper } from './ui.helper';
+import $ from 'jquery'
 
 export class UIPipe extends UIAnalyzer {
     protected pipeInsert(data: FormulizeData): any {

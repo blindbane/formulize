@@ -3,6 +3,7 @@ import { FormulizeFunction, FormulizeOptions } from './formulize.interface';
 import { UI } from './ui/ui';
 import { FormulizePlugin } from './formulize.jquery';
 import { MethodBase, methodBinder } from './formulize.plugin.method';
+import $ from 'jquery'
 
 export function pluginBinder() {
     const reflectedMethod = new MethodBase(null);
